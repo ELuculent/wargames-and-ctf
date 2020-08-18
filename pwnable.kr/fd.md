@@ -7,3 +7,4 @@
 
 ## First steps
 After logging into the shell I did what I normally do in Linux. `ls -la` to show all files, their permissions, and their owners.
+
