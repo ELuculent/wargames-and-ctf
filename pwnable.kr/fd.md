@@ -8,3 +8,10 @@
 ## First steps
 After logging into the shell I did what I normally do in Linux. `ls -la` to show all files, their permissions, and their owners.
 
+I saw that there was a file called "fd" and tried executing. The first time it asked me for a number so I gave it one. It said to learn about Linux File I/O. 
+
+
+## Getting to the flag
+I used `nano` to view the "fd.c" file and found the functions for reading, error handling, and success conditions. I actually thought way too hard about this and tried to convert the success string "LETMEWIN\n" to an int and add 0x1234 to it, then convert back to a string. Obviously, that's not correct.
+
+I was able to figure out how to get a 0 file descriptor based on looking at the code and managed to input the right number to send "LETMEWIN\n" to the console, giving me the flag
