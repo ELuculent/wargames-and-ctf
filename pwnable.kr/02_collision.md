@@ -7,6 +7,7 @@ I will not be posting the flags I've found.
 
 # First Steps
 List directory, find the source code. Normal stuff. Upon seeing the source, I noticed the hashcode to compare to. The passcode had to be 20 bytes. The `check_password` function appears to add the 20 byte password up.
+![Col.c Code](https://github.com/ELuculent/wargames-and-ctf/blob/master/pwnable.kr/Resources/02_col.1.png?raw=true)
 
 Using the MD5 hash collision hint from the start, I could take the hexadecimal number from the hashcode and create a 20 byte password using hexadecimal. By dividing `0x21DD09EC` by 5, I was able to get a value of `0x6C5CEC8`, which I could multiply by 4 and get `0x1B173B20`, which was `0x6C5CECC` less than the target value. I converted these to small endians.
     I had issues with it being the wrong password even with the collision input via:

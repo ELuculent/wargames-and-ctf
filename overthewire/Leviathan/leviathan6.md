@@ -1,3 +1,3 @@
 ## Leviathan 6 -> 7
 
-Upon opening the box you are greeted with a file called leviathan5. Upon running, the file informs you that that a file is not found. Create a symbolic link for that file name to retreive the password.
+The file called leviathan6 takes a 4 digit passcode as a parameter. You can retrieve the passcode via brute-forcing until the shell stops. You can get the password from the next level in the usual place.
