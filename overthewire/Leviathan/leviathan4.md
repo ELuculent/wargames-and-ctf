@@ -1,0 +1,2 @@
+# Leviathan 4 -> 5
+This challenge was quite simple. There are no files in `~`, however, upon using `ls -la`, you can find the trash with an executable. Convert the output using either a website or an ASCII table and you have your answer.

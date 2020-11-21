@@ -1,0 +1,2 @@
+## Leviathan 5 -> 6
+Upon opening the box you are greeted with a file called leviathan5. Upon running, the file informs you that that a file is not found. Create a symbolic link for that file name to retreive the password.

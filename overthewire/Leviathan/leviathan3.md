@@ -1,0 +1,2 @@
+# Leviathan 3 -> 4
+In this level it you are given a file called `level3`. Uninspired name really. This program asks for a password. Just like [Leviathan1](), let's use `ltrace` to find the password and be done with it.
